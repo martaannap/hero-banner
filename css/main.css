@@ -3,11 +3,36 @@ html {
   font-family: "Open Sans", sans-serif;
 }
 
-*, *:: before, *::after {
+*, *::before, *::after {
   box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+h2 {
+  font-size: 4rem;
+  margin: 0;
+}
+
+p {
+  font-size: 2rem;
+  font-style: italic;
 }
 
 .img-flex {
   display: block;
   width:100%;
+}
+
+.banner {
+  position: relative;
+  max-height: 500px;
+}
+
+.content {
+  position: absolute;
+  top: 0;
+  overflow: hidden;
 }
