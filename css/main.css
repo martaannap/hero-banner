@@ -13,26 +13,39 @@ body {
 
 h2 {
   font-size: 4rem;
-  margin: 0;
+  margin-top: 0;
+  margin-bottom: 50px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  line-height: 1.4;
+  display: inline;
 }
 
 p {
   font-size: 2rem;
   font-style: italic;
+  margin: 0;
+  margin-top: 5px;
 }
 
 .img-flex {
   display: block;
-  width:100%;
+  width: 100%;
 }
 
 .banner {
   position: relative;
   max-height: 500px;
+  overflow: hidden;
 }
 
 .content {
   position: absolute;
-  top: 0;
-  overflow: hidden;
+  left: 50%;
+  bottom: 0;
+  width: 100%;
+  margin: 5px;
+  transform: translateX(-50%);
+  max-width: 40rem;
+  margin-bottom: 50px;
 }
